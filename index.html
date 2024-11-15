@@ -3,27 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Page d'accueil TLA (sombre)</title>
- <style>
-*{
-    padding: 0px;
-    margin:0px;
-}
-.mon-contenaire-principale {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    min-width: 100vw;
-    min-height: 100vh;
-    position: relative;
-}
-</style>
+  <link rel="stylesheet" href="./style.css">
 </head>
-  <body>
-
-      <div class="mon-contenaire-principale">
-      
-      
+<body>
+<!-- partial:index.partial.html -->
+<div class="main-container">
+        <div class="blur-circle1">
+        </div>
+        <div class="blur-circle2">
+        </div>
+          <!-- Début de la page d'accueil -->
+      <div class="landing-page">
+        <header>
+          <div class="container">
+            <a href="#" class="logo">Votre <b>Site Web</b></a>
+            <ul class="links">
+              <li>Accueil</li>
+              <li>À Propos</li>
+              <li>Travail</li>
+              <li>Infos</li>
+              <li>Commencer</li>
+            </ul>
+          </div>
+        </header>
+        <div class="content">
+          <div class="container">
+            <div class="info">
+              <h1>À la recherche d'inspiration</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quidem iste, Repellendus odit nihil</p>
+              <button>Nom du bouton</button>
+            </div>
+            <div class="image">
+              <img class="main-image" src="techman.png">
+            </div>
+          </div>
+        </div>
       </div>
-
-  </body>
+      <!-- Fin de la page d'accueil -->
+    </div>
+<!-- partial -->
+</body>
 </html>
